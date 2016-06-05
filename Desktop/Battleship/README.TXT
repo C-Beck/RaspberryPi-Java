@@ -1,12 +1,6 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
+PROJECT TITLE:Java Battleship AI
+PURPOSE OF PROJECT:Develop a successful AI for Battleship along side a game
+VERSION or DATE:0.0.0
 HOW TO START THIS PROJECT:
-AUTHORS:
+AUTHORS:C-Beck
 USER INSTRUCTIONS:
