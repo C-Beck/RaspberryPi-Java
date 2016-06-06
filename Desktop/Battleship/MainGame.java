@@ -1,33 +1,35 @@
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.Dimension;
 
-/**
- * Write a description of class MainGame here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class MainGame
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class MainGame
-     */
-    public MainGame()
+    public static int board[][]={
+        {0,0,0,0,0,0,0,0,0,0},
+        {0,0,0,0,0,0,0,0,0,0},
+        {0,0,0,0,0,0,0,0,0,0},
+        {0,0,0,0,0,0,0,0,0,0},
+        {0,0,0,0,0,0,0,0,0,0},
+        {0,0,0,0,0,0,0,0,0,0},
+        {0,0,0,0,0,0,0,0,0,0},
+        {0,0,0,0,0,0,0,0,0,0},
+        {0,0,0,0,0,0,0,0,0,0},
+        {0,0,0,0,0,0,0,0,0,0}};
+    public void draw()
     {
-        // initialise instance variables
-        x = 0;
+        for(int i=0; i<10; i++){
+            for(int j=0;j<10; j++){
+                Point(i*10,j*10) = p
+                Rectangle bounds = new Rectangle(p,Dimension(10,10));
+            }
+        }
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
     public int sampleMethod(int y)
     {
-        // put your code here
         return x + y;
+    }
+    public static void main(String args[])
+    {
+        draw();
     }
 }
